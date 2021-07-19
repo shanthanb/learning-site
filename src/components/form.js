@@ -90,7 +90,7 @@ const Form = () => {
                 <div className="form-div">
                 <Select isMulti className="form-input form-select" onInputChange={handleChange} onChange={handleSelect} placeholder="Mention 3 Interests"  options={items} />
                 </div>
-                <input type="button" onClick={validateForm} className="form-button" value="Sign In" />
+                <input type="button" onClick={validateForm} className="form-button" value="Register" />
             </form>
         </div>
     )
